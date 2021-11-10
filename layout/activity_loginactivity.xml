@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/loginpage1new"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Loginactivity">
+    <ImageView
+
+        android:layout_width="380dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginRight="15dp"
+        android:src="@drawable/rect2" />
+
+    <ImageView
+
+        android:layout_width="190dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="200dp"
+        android:src="@drawable/rectangles" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Login"
+        android:textColorHint="@color/white"
+        android:textSize="50dp"
+        android:background="@android:color/transparent"
+        android:fontFamily="@font/creamcake400"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="195dp"
+        />
+
+    <Button
+        android:id="@+id/signupm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="195dp"
+        android:layout_toRightOf="@id/login"
+        android:fontFamily="@font/creamcake400"
+        android:background="@android:color/transparent"
+        android:hint="Sign Up"
+        android:textColorHint="@color/white"
+        android:textSize="50dp"
+        />
+    <EditText
+        android:id="@+id/enterEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your Email"
+        android:textColorHint="@color/customw"
+        android:fontFamily="@font/imprisha"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="290dp"
+        android:textColor="@color/customy"
+        android:textSize="35dp"
+
+        />
+    <EditText
+        android:id="@+id/enterPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your Password"
+        android:textColor="@color/customy"
+        android:textColorHint="@color/customw"
+        android:fontFamily="@font/imprisha"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@id/enterEmail"
+        android:layout_marginTop="20dp"
+        android:textSize="35dp"
+        android:inputType="textPassword"
+        />
+
+    <ImageView
+
+        android:layout_width="190dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="15dp"
+        android:layout_below="@id/enterPassword"
+        android:src="@drawable/rect3" />
+
+    <Button
+        android:id="@+id/Login_page"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Sign Up"
+        android:textColorHint="@color/customc"
+        android:layout_below="@id/enterPassword"
+        android:background="@android:color/transparent"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="115dp"
+        android:textSize="35dp"/>
+    <TextView
+        android:id="@+id/donthaveaccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Don't Have Account? Click on Sign Up"
+        android:fontFamily="@font/creamcake400"
+        android:textSize="50dp"
+        android:textColor="@color/customg"
+        android:layout_below="@id/enterPassword"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="40dp"
+        />
+
+
+
+</RelativeLayout>

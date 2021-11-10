@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/imagev"
+        android:src="@color/teal_200" />
+    <TextView
+        android:id="@+id/txtnamev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/imagev"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        style="@style/TextAppearance.AppCompat.Title"
+        android:text="namev"
+        android:textColor="@color/customy"
+        android:layout_toEndOf="@id/imagev"/>
+    <TextView
+        android:id="@+id/txtDesv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/imagev"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        style="@style/TextAppearance.AppCompat.SearchResult.Subtitle"
+        android:maxLength="50"
+        android:singleLine="true"
+        android:layout_below="@id/txtnamev"
+        android:text="Desv"
+        android:textColor="@color/customy"
+        android:layout_toEndOf="@id/imagev"/>
+
+</RelativeLayout>

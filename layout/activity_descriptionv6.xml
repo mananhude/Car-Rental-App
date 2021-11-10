@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_700"
+    tools:context=".Descriptionv6">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/informalroman"
+                android:text="Wheels Up"
+                android:textColor="@color/customy"
+                android:textSize="50dp"/>
+            <ImageView
+                android:id="@+id/Wheel4Truck"
+                android:layout_width='match_parent'
+                android:layout_height="wrap_content"
+                android:layout_marginTop="80dp"
+                android:minWidth="100dp"
+                android:src="@drawable/v6"/>
+
+            <TextView
+                android:id="@+id/Spe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Wheel4Truck"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="@font/leelawui"
+                android:text="Specifications:"
+                android:textColor="@color/customye"
+                android:textSize="40dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/seat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Spe"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="@font/leelawui"
+                android:text="Payload Capcity: 6 Ton"
+                android:textColor="@color/customye"
+                android:textSize="35dp"
+                />
+
+            <TextView
+                android:id="@+id/special"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/seat"
+                android:text="Speciality: Off-road"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="@font/leelawui"
+                android:textColor="@color/customye"
+                android:textSize="35dp"
+                />
+
+            <TextView
+                android:id="@+id/Journey"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/special"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="@font/leelawui"
+                android:text="Good for heavy shipments"
+                android:textColor="@color/customye"
+                android:textSize="35dp" />
+
+            <TextView
+                android:id="@+id/price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Journey"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/leelawui"
+                android:text="Price: 20000 Per Day"
+                android:textColor="@color/customy"
+                android:textSize="35dp"
+                android:textStyle="bold"
+
+                />
+
+
+
+            <ImageView
+
+                android:layout_width="190dp"
+                android:layout_height="60dp"
+                android:layout_below="@id/price"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/rect_t2" />
+
+            <Button
+                android:id="@+id/payment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/price"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="15dp"
+                android:background="@android:color/transparent"
+                android:text="Payment"
+                android:textSize="30dp"/>
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

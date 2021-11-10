@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Options"
+    android:background="@color/purple_700"
+    android:orientation="horizontal">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:src="@drawable/rect4"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Choose Your Need"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/customre"
+        android:textSize="30dp"
+        android:layout_marginLeft="40dp"
+        android:fontFamily="@font/lemonmink"/>
+    <Button
+        android:id="@+id/car"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:text="CAR"
+        android:textSize="50dp"
+        android:fontFamily="@font/lemonmink"
+        android:textColor="@color/customred"
+        android:layout_marginTop="190dp"
+        />
+
+
+
+    <Button
+        android:id="@+id/vehicle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:text="Shipping Vehicle"
+        android:textSize="40dp"
+        android:fontFamily="@font/lemonmink"
+        android:textColor="@color/customred"
+        android:layout_marginTop="450dp"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:src="@drawable/car4"
+        android:scaleType="fitStart"
+        />
+    <ImageView
+        android:id="@+id/shippingvehicle"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:src="@drawable/truck2"
+        android:scaleType="fitStart"
+        />
+    <ImageView
+        android:layout_width="190dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="-75dp"
+        android:layout_below="@id/shippingvehicle"
+        android:src="@drawable/rect3" />
+
+    <Button
+        android:id="@+id/Logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Log Out"
+        android:textColorHint="@color/customc"
+        android:layout_below="@id/shippingvehicle"
+        android:background="@android:color/transparent"
+        android:layout_marginTop="-80dp"
+        android:fontFamily="@font/leelawui"
+        android:layout_marginLeft="115dp"
+        android:textSize="35dp"/>
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
